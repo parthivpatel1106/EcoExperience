@@ -1,0 +1,989 @@
+body {
+  font-family: 'montserrat';
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.active2 {
+  background-color: #d84339;
+  border-radius: 5px;
+}
+
+nav.scrolled {
+  background-color: #2b8d9c;
+}
+
+.navbar-toggler {
+  outline: none;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url(/icons/menu-regular-24.png);
+  outline: none;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+}
+
+.carousel-item {
+  height: 39rem;
+  background: #777;
+  color: white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.container a {
+  background: transparent;
+  border: 2px solid white;
+  font-size: 18px;
+  margin-bottom: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container h4 {
+  display: none;
+}
+
+#tours h3 {
+  color: #d84339;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 60px;
+}
+
+#tours p {
+  color: black;
+  text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.wrapper .carousel1 {
+  padding: 0 150px;
+}
+
+.wrapper .carousel1 .card {
+  border: none;
+  width: 313px;
+}
+
+.wrapper .carousel1 .card img {
+  height: 437px;
+  width: 313px;
+}
+
+.packinfo {
+  margin: 350px 86px 6px 27px;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 1px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.packinfo h4 {
+  color: white;
+  font-weight: 700;
+}
+
+.packinfo h5 {
+  color: white;
+}
+
+.packinfo:hover {
+  padding: 4px 4px 4px 4px;
+  border-radius: 10px;
+  background-color: #d84339;
+}
+
+.owl-item {
+  width: 0px;
+}
+
+.owl-dots {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.owl-dot {
+  height: 15px;
+  width: 45px;
+  border-radius: 25px;
+  cursor: pointer;
+  outline: none !important;
+  border: 2px solid #2b8d9c !important;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.owl-dot:hover, .owl-dot.active {
+  background: #2b8d9c !important;
+}
+
+.newSections h3 {
+  color: #d84339;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.packs {
+  display: -ms-grid;
+  display: grid;
+  height: 20vh;
+  -ms-grid-columns: 33.33% 33.33% 33.33%;
+      grid-template-columns: 33.33% 33.33% 33.33%;
+      grid-template-areas: "pack1 pack2 pack3";
+}
+
+.packs .package {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10px;
+}
+
+.packs .package .packlink {
+  text-decoration: none;
+  background-color: #d84339;
+  border-radius: 10px;
+  height: 310px;
+  width: 400px;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+.packs .package .packlink .packname {
+  position: absolute;
+  color: white;
+  margin-left: 85px;
+  margin-top: 50px;
+}
+
+.packs .package .packlink img {
+  width: 400px;
+}
+
+.packs .package .packlink p {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.packs .package .packlink:hover {
+  -webkit-transform: translate(3px, 3px);
+          transform: translate(3px, 3px);
+}
+
+.package1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: pack1;
+}
+
+.package2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: pack2;
+}
+
+.package3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: pack3;
+}
+
+.offers {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+      grid-template-areas: "off1 off2";
+  margin-top: 220px;
+}
+
+.offers .offer-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.offers .offer-box img {
+  width: 620px;
+  height: 150px;
+}
+
+.offers .offer-box .offer-link {
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+.offers .offer-box .offer-link h3 {
+  position: absolute;
+  color: white;
+  margin-left: 150px;
+}
+
+.offers .offer-box .offer-link:hover {
+  -webkit-transform: translate(3px, 3px);
+          transform: translate(3px, 3px);
+}
+
+.offer1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: off1;
+}
+
+.offer2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: off2;
+}
+
+.offer2 .offer-link h3 {
+  margin-left: 230px !important;
+}
+
+.parts {
+  display: -ms-grid;
+  display: grid;
+  height: 80vh;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 60% 40%;
+      grid-template-rows: 60% 40%;
+      grid-template-areas: "aboutus aboutus client" "sub sub sub";
+  grid-gap: 10px;
+  margin: 0 20px;
+  border: none;
+}
+
+.parts #about-us {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: aboutus;
+  background-color: #2b8d9c;
+  border-radius: 10px;
+}
+
+.parts #about-us .about1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.parts #about-us .about1 img {
+  display: block;
+  margin: 25px 25px;
+  height: 250px;
+  width: 400px;
+}
+
+.parts #about-us .about1 .infoabout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.parts #about-us .about1 .infoabout h4 {
+  color: white;
+  font-weight: 700;
+}
+
+.parts #about-us .about1 .infoabout p {
+  color: white;
+}
+
+.parts #feedback {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: client;
+  background-color: #2b8d9c;
+  border-radius: 10px;
+}
+
+.parts #feedback .client-words {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 70px;
+}
+
+.parts #feedback .client-words p {
+  color: white;
+  text-align: center;
+}
+
+.parts #feedback .client-words h4 {
+  text-align: center;
+  color: white;
+}
+
+.parts #subscribe {
+  background-color: #2b8d9c;
+  border-radius: 10px;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: sub;
+}
+
+.parts #subscribe h3 {
+  color: white;
+  margin-top: -20px;
+}
+
+.parts #subscribe .subform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.parts #subscribe .subform .f_name, .parts #subscribe .subform .l_name {
+  height: 50px;
+  width: 350px;
+  background: none;
+  border: 3px solid white;
+  border-radius: 20px;
+  text-align: center;
+  outline: none;
+}
+
+.parts #subscribe .subform .f_name::-webkit-input-placeholder, .parts #subscribe .subform .l_name::-webkit-input-placeholder, .parts #subscribe .subform .mail::-webkit-input-placeholder {
+  color: white;
+}
+
+.parts #subscribe .subform .f_name:-ms-input-placeholder, .parts #subscribe .subform .l_name:-ms-input-placeholder, .parts #subscribe .subform .mail:-ms-input-placeholder {
+  color: white;
+}
+
+.parts #subscribe .subform .f_name::-ms-input-placeholder, .parts #subscribe .subform .l_name::-ms-input-placeholder, .parts #subscribe .subform .mail::-ms-input-placeholder {
+  color: white;
+}
+
+.parts #subscribe .subform .f_name::placeholder, .parts #subscribe .subform .l_name::placeholder, .parts #subscribe .subform .mail::placeholder {
+  color: white;
+}
+
+.parts #subscribe .subform .mail {
+  height: 50px;
+  width: 500px;
+  border: 3px solid white;
+  border-radius: 20px;
+  text-align: center;
+  background: none;
+  outline: none;
+}
+
+.parts #subscribe .subform .subscribe {
+  height: 50px;
+  width: 100px;
+  border-radius: 20px;
+  border: 1px solid #d84339;
+  background-color: #d84339;
+  outline: none;
+  color: white;
+}
+
+.workcard {
+  background-color: #2b8d9c;
+  width: 95%;
+  height: 80%;
+  margin: 0 auto;
+  border-radius: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+      grid-template-areas: "sociallink contactcard";
+}
+
+.social {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: sociallink;
+}
+
+.social .sociallinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15%;
+}
+
+.social .sociallinks h3 {
+  color: white;
+}
+
+.social .sociallinks .social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-column-gap: 50px;
+          column-gap: 50px;
+  outline: none;
+}
+
+.contactus {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: contactcard;
+}
+
+.contactus .contactform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 10%;
+}
+
+.contactus .contactform .name, .contactus .contactform .e-mail {
+  height: 70px;
+  width: 550px;
+  border-radius: 50px;
+  background: none;
+  border: 3px solid white;
+  font-size: 18px;
+  text-align: center;
+  outline: none;
+}
+
+.contactus .contactform .msg {
+  width: 550px;
+  height: 200px;
+  border-radius: 50px;
+  background: none;
+  border: 3px solid white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.contactus .contactform .name::-webkit-input-placeholder, .contactus .contactform .e-mail::-webkit-input-placeholder, .contactus .contactform .msg::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.contactus .contactform .name:-ms-input-placeholder, .contactus .contactform .e-mail:-ms-input-placeholder, .contactus .contactform .msg:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.contactus .contactform .name::-ms-input-placeholder, .contactus .contactform .e-mail::-ms-input-placeholder, .contactus .contactform .msg::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.contactus .contactform .name::placeholder, .contactus .contactform .e-mail::placeholder, .contactus .contactform .msg::placeholder {
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.contactus .contactform .send-btn {
+  color: white;
+  font-weight: 700;
+  height: 40px;
+  width: 190px;
+  border: 1px solid #d84339;
+  border-radius: 20px;
+  background-color: #d84339;
+}
+
+.contactus .contactform .send-btn:hover {
+  background-color: #832721;
+  border-color: #832721;
+}
+
+.footer {
+  font-size: 14px;
+  color: #d84339;
+}
+
+.footer p {
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  #carouselStyle {
+    height: 100vh;
+  }
+  .container h4 {
+    display: block;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  #tours h3 {
+    text-align: center;
+    font-size: 18px;
+  }
+  #tours p {
+    margin: 0 auto;
+    font-size: 12px;
+    display: block;
+    height: 30px;
+    width: 218px;
+  }
+  #packages h3 {
+    text-align: center;
+    font-size: 18px;
+  }
+  .wrapper {
+    width: 100%;
+  }
+  .wrapper .carousel1 {
+    padding: 0 15px;
+  }
+  .wrapper .carousel1 .card {
+    border: none;
+    margin: 15px 0;
+  }
+  .wrapper .carousel1 .card img {
+    height: 100%;
+    width: 330px;
+  }
+  .owl-dots {
+    text-align: center;
+    margin-top: -10px;
+  }
+  .packinfo {
+    margin: 500px 86px 6px 27px;
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 1px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .packinfo h4 {
+    color: white;
+    font-weight: 700;
+  }
+  .packinfo h5 {
+    color: white;
+  }
+  .packinfo:hover {
+    padding: 4px 4px 4px 4px;
+    border-radius: 10px;
+    background-color: #d84339;
+  }
+  .packs {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 150px 150px 150px;
+        grid-template-rows: 150px 150px 150px;
+        grid-template-areas: "pack1" "pack2" "pack3";
+    margin-top: 5px;
+  }
+  .packs .package {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .packs .package .packlink {
+    text-decoration: none;
+    background-color: #d84339;
+    border-radius: 10px;
+    height: 140px;
+    width: 338px;
+  }
+  .packs .package .packlink img {
+    width: 338px;
+    height: 100px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .packs .package .packlink p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .packs .package .packlink .packname {
+    font-size: 14px;
+    margin-top: -20px;
+  }
+  .offers {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 120px 120px;
+        grid-template-rows: 120px 120px;
+        grid-template-areas: "off1" "off2";
+    margin-top: 50vh;
+  }
+  .offers .offer-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: 10px;
+  }
+  .offers .offer-box img {
+    border-radius: 10px;
+    width: 318px;
+    height: 100px;
+  }
+  .offers .offer-box .offer-link h3 {
+    font-size: 14px;
+    margin-left: 70px;
+    margin-top: -20px;
+  }
+  .offers .offer2 .offer-link h3 {
+    margin-left: 100px !important;
+  }
+  #about h3 {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .parts {
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+    -ms-grid-rows: 40% 25% 40%;
+        grid-template-rows: 40% 25% 40%;
+        grid-template-areas: "aboutus" "client" "sub";
+  }
+  .parts #about-us .about1 img {
+    margin: 10px 10px;
+    height: 150px;
+    width: 100px;
+  }
+  .parts #about-us .about1 .infoabout {
+    margin-top: 30px;
+    row-gap: 2px;
+  }
+  .parts #about-us .about1 .infoabout h4 {
+    font-size: 18px;
+  }
+  .parts #about-us .about1 .infoabout p {
+    font-size: 12px;
+  }
+  .client-words {
+    margin-top: 10px !important;
+  }
+  .client-words p {
+    display: block;
+    height: 100px;
+    width: 300px;
+    font-size: 12px;
+  }
+  .client-words h4 {
+    margin-top: -15px;
+    font-size: 18px;
+  }
+  #subscribe h3 {
+    padding: 30px;
+    font-size: 18px;
+  }
+  #subscribe .subform {
+    margin-top: -25px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    row-gap: 5px;
+  }
+  #subscribe .subform .f_name, #subscribe .subform .l_name {
+    font-size: 12px;
+    height: 40px !important;
+    width: 280px !important;
+    background: none;
+    border: 3px solid white;
+    border-radius: 20px;
+    text-align: center;
+    outline: none;
+  }
+  #subscribe .subform .f_name::-webkit-input-placeholder, #subscribe .subform .l_name::-webkit-input-placeholder, #subscribe .subform .mail::-webkit-input-placeholder {
+    color: white;
+  }
+  #subscribe .subform .f_name:-ms-input-placeholder, #subscribe .subform .l_name:-ms-input-placeholder, #subscribe .subform .mail:-ms-input-placeholder {
+    color: white;
+  }
+  #subscribe .subform .f_name::-ms-input-placeholder, #subscribe .subform .l_name::-ms-input-placeholder, #subscribe .subform .mail::-ms-input-placeholder {
+    color: white;
+  }
+  #subscribe .subform .f_name::placeholder, #subscribe .subform .l_name::placeholder, #subscribe .subform .mail::placeholder {
+    color: white;
+  }
+  #subscribe .subform .mail {
+    font-size: 12px;
+    height: 40px !important;
+    width: 280px !important;
+    border: 3px solid white;
+    border-radius: 20px;
+    text-align: center;
+    background: none;
+    outline: none;
+  }
+  #subscribe .subform .subscribe {
+    font-size: 12px;
+    height: 40px !important;
+    width: 120px !important;
+    border-radius: 20px;
+    border: 1px solid #d84339;
+    background-color: #d84339;
+    outline: none;
+    color: white;
+  }
+  #subscribe .subform .subscribe:hover {
+    background-color: #832721;
+  }
+  #contact h3 {
+    font-size: 18px;
+  }
+  .workcard {
+    -ms-grid-rows: 50% 50%;
+        grid-template-rows: 50% 50%;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
+        grid-template-areas: "contactcard" "sociallink";
+    height: 86%;
+  }
+  .workcard .sociallinks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 20px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 15%;
+  }
+  .workcard .sociallinks h3 {
+    font-size: 18px;
+    color: white;
+  }
+  .workcard .sociallinks .social-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-column-gap: 30px;
+            column-gap: 30px;
+    outline: none;
+  }
+  .workcard .sociallinks .social-icons img {
+    height: 35px;
+    width: 35px;
+  }
+  .contactus {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: contactcard;
+  }
+  .contactus .contactform {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    row-gap: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 10%;
+  }
+  .contactus .contactform .name, .contactus .contactform .e-mail {
+    height: 50px;
+    width: 280px;
+    border-radius: 50px;
+    background: none;
+    border: 3px solid white;
+    font-size: 14px;
+    text-align: center;
+    outline: none;
+  }
+  .contactus .contactform .msg {
+    width: 280px;
+    height: 200px;
+    border-radius: 30px;
+    background: none;
+    border: 3px solid white;
+    font-size: 18px;
+    text-align: center;
+  }
+  .contactus .contactform .name::-webkit-input-placeholder, .contactus .contactform .e-mail::-webkit-input-placeholder, .contactus .contactform .msg::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.65);
+  }
+  .contactus .contactform .name:-ms-input-placeholder, .contactus .contactform .e-mail:-ms-input-placeholder, .contactus .contactform .msg:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.65);
+  }
+  .contactus .contactform .name::-ms-input-placeholder, .contactus .contactform .e-mail::-ms-input-placeholder, .contactus .contactform .msg::-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.65);
+  }
+  .contactus .contactform .name::placeholder, .contactus .contactform .e-mail::placeholder, .contactus .contactform .msg::placeholder {
+    color: rgba(255, 255, 255, 0.65);
+  }
+  .contactus .contactform .send-btn {
+    color: white;
+    font-weight: 700;
+    height: 40px;
+    width: 190px;
+    border: 1px solid #d84339;
+    border-radius: 20px;
+    background-color: #d84339;
+  }
+  .contactus .contactform .send-btn:hover {
+    background-color: #832721;
+    border-color: #832721;
+  }
+}
+/*# sourceMappingURL=style.css.map */
